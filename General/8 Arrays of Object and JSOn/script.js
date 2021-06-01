@@ -1,0 +1,31 @@
+const todos = [
+  {
+    id: 1,
+    text: 'Take out trash',
+    isCompleted: true
+  },
+  {
+    id: 2,
+    text: 'Meeting with boss',
+    isCompleted: true
+  },
+  {
+    id: 3,
+    text: 'Dentist appt',
+    isCompleted: true
+  },
+  ]
+
+  console.log(todos);
+
+  console.log(todos[1].text);
+
+  //JSON
+
+  const todoJSON = JSON.stringify(todos); 
+  console.log(todoJSON);
+
+const json = {"name": "Vasile", "age": 27} ; 
+
+const revJSON = JSON.parse(json);
+console.log(revJSON);
